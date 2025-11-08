@@ -1,25 +1,24 @@
 #include <stdio.h>
 
-void sum(int a, int b)
-{
 
-    printf("the sum is %d \n", a + b);
+char* slice(char str[], int m, int  n)
+
+{
+    int i=0, count ;
+    char *ptr1= &str[m];
+    char *ptr2= &str[n]; 
+    
+    str = ptr1;
+    str[n]='\0';
+    return str;
 }
 
-void avg(int a, int b)
-{
-
-    float avg = ((a + b) / 2.0);
-    printf("yup sir ts is your avg %f \n", avg);
-}
 int main()
 {
+    char str[] = "harry bhai";
 
-    int x = 10;
-    int y = 20;
-
-    sum(x, y);
-    avg(x, y);
+    printf("%s", slice(str, 1, 6));
 
     return 0;
 }
+

@@ -1,19 +1,25 @@
+#include <stdio.h>
 
-#include<stdio.h>
+int strlen(char str[])
+{
 
-void change_to_sixty7times(int*);
-
-void change_to_sixty7times(int* a){
-*a=*a *67 ;
+    int i = 0;
+    char c = str[i];
+    while (c != '\0')
+    {
+        c = str[i];
+        i++;
+    }
+    int count = i - 1;
+    
+    return count;
 }
 
-int main(){
+int main()
+{
+    char str[] = "hary";
 
-int x=45;
-printf("udcbkvbkv %d \n", x);
+    printf("%d", strlen(str));
 
-change_to_sixty7times(&x);
-
-printf(" %d \n", x);
-return 0;
+    return 0;
 }
