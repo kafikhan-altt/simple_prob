@@ -1,3 +1,6 @@
+#pragma pack(1)
+ 
+
 union 
 {
     struct book
