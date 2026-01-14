@@ -1,5 +1,12 @@
 
 #include <stdio.h>
+void parray(int arr[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d", arr[i]);
+    }
+}
 void insertionsort(int arr[], int n)
 {
     for (int i = 1; i < n; i++)
@@ -17,13 +24,7 @@ void insertionsort(int arr[], int n)
        parray(arr, 5);
 }
 
-void parray(int arr[], int n)
-{
-    for (int i = 0; i < n; i++)
-    {
-        printf("%d", arr[i]);
-    }
-}
+
 
 int main()
 {
