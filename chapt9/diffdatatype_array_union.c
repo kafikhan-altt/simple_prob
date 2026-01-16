@@ -1,4 +1,5 @@
-typrdef union{
+typedef union{
+
 
  int a ;
  char b ;
