@@ -17,9 +17,7 @@ int main(){
 
     printf("the value of complex number is %d+%di \n",v1.real,v1.imag);
     i++;
-    if (i==5){
-        break;
-   }
+    
    } 
     return 0;
 }
