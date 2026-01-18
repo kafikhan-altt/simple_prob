@@ -6,7 +6,6 @@ int main(){
 FILE *ptr;
 ptr =fopen("sample.txt", "r");
 
-
 if(ptr == NULL){
 
 printf("the file does not exist sorry ! \n");
