@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void sqr_area() {
+    int s, area;
+    printf("Enter side of square: ");
+    scanf("%d", &s);
+    area = s * s;
+    printf("Area = %d\n", area);
+}
+
+int main() {
+    sqr_area();
+    return 0;
+}
