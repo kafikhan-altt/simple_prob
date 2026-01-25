@@ -19,6 +19,7 @@ int main()
         printf("%d \n", p[i]);
     }
 
+
     printf("After Reallocation \n");
     p = realloc(p, 15 * sizeof(int));
 
