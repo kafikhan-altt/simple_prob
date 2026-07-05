@@ -23,6 +23,16 @@ int main() {
     head->link =NULL;
 
     printf("%d", head->data);
+     
+    struct node *current=NULL;
+    current=malloc(sizeof(struct node));
+
+    current->data=46;
+    current->link=NULL;
+
+    head->link=current;
+
+    printf("\n%d", current->data);
     return 0;
     
 }
