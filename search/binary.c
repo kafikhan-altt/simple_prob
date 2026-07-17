@@ -58,6 +58,6 @@ int main()
         printf("Element is not present in array\n");
     else
         printf("Element is present at index %d\n", result);
-
+        
     return 0;
 }
