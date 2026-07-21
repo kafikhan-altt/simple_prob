@@ -7,6 +7,7 @@ void enqueue(){
     }
     else{
         if(front=-1)
+        
         front=0;
     }
         printf("enter");
