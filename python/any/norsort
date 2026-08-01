@@ -1,0 +1,12 @@
+l=[13,45,64,98,12,9,93]
+
+s=[]
+
+while(len(l)>0): 
+    min=l[0]
+    if l[0]<min:
+        min=l[0]
+    s.append(min)
+    l.remove(min)
+print(f'the sorted list is {s}')
+
