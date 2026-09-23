@@ -41,6 +41,8 @@ two_sample_t_test(
     x_bar1=85,
     x_bar2=80,
     s1=6,
+
+# tha need ts changes
     s2=5,
     n1=20,
     n2=25
